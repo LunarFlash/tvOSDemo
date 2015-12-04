@@ -1,7 +1,7 @@
 //
 //  AppDelegate.swift
 //  tvOS
-//
+//  http://www.raywenderlich.com/114886/beginning-tvos-development-with-tvml-tutorial
 //  Created by Terry Wang on 12/3/15.
 //  Copyright © 2015 Accenture. All rights reserved.
 //
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
     var window: UIWindow?
     var appController: TVApplicationController?
     static let TVBaseURL = "http://localhost:9001/"
+    //static let TVBaseURL = "https://www.dropbox.com/sh/lndux66gcs893qh/AAAMJKQEl_3Ha4PRIvKzWZepa?dl=0/"
     static let TVBootURL = "\(AppDelegate.TVBaseURL)js/application.js"
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
